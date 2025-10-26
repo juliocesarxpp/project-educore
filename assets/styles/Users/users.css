@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-01: #7674FC;
+    --cor-02: #004BFA;
+    --cor-03: #0400FA;
+    --cor-04: #A800FA;
+    --cor-05: #5600FA;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+}
+
+body 
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(120deg, #342668, #412f83, #543ca8, #7e5aff);
+}
+
+header
+{
+    height: 6.5rem;
+    width: 100%;
+}
+
+.header-container
+{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 10px 10px;
+}
+
+logo 
+{
+    height: 100%;
+}
+img {
+    width: 11rem;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+li a
+{
+    text-decoration: none;
+    color: #543ca8;
+    transition: 0.1s ease-in-out;
+    border-radius: 3px;
+}
+
+li a:hover 
+{
+    color: #4f05d8;
+    transform: scale(105);
+    border-bottom: 2px solid #4f05d8;
+}
+
+.active
+{
+    color: #4f05d8;
+    border-bottom: 2px solid #4f05d8;
+}
+
+.btn-in-out
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.logout
+{
+    background-color: rgb(0, 0, 0);
+    padding: 5px 7px;
+    color: white;
+    border-radius: 10px;
+    transition: .1s ease-in-out;
+    
+}
+.login
+{
+    padding: 5px 7px;
+    color: black;
+    border-radius: 10px;
+    transition: .1s ease-in-out;
+    font-weight: bold;
+}
+.btn-in-out .logout:hover 
+{
+    background-color: #4e4e4e;
+    color: #ffffff;
+}
+.btn-in-out .login:hover {
+    color: #4e4e4e;
+}

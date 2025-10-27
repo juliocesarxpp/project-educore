@@ -122,3 +122,106 @@ li a:hover
 .btn-in-out .login:hover {
     color: #4e4e4e;
 }
+
+
+
+
+main 
+{
+    width: 90vw;
+    background-color: rgb(231, 231, 243);
+    margin: 1px auto;
+    border-radius: 7px;
+    border-top: 1px solid #0a0949;
+    padding: 20px;
+    
+}
+
+h1 {
+    font-size: 1.6rem;
+    color: #4004b1;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.container-nav
+{
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+}
+
+.booksExplorer
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+    
+}
+
+.booksExplorer label
+{
+    font-size: 1.1rem;
+    color: #4f05d8;
+    align-self: start;
+}
+
+.booksExplorer input
+{
+    padding: 7px;
+    border-radius: 10px;
+    width: 18rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+}
+
+
+.booksGenres {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    height: 100%;
+
+}
+
+.booksGenres label
+{
+    font-size: 1.1rem;
+    color: #4f05d8;
+    align-self: start;
+}
+
+.booksGenres select
+{
+    padding: 7px;
+    border-radius: 10px;
+    width: 18rem;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+}
+.booksGenres select option
+{
+    color: #ffffff;
+    background-color: #4f05d8;
+}
+
+
+.container-nav button
+{
+    align-self: self-end;
+    padding: 10px;
+    background-color: #5600FA;
+    color: white;
+    border-radius: 10px;
+    transition: .1s ease-in-out;
+}
+
+.container-nav button:hover 
+{
+    background-color: #3e02af;
+}

@@ -139,9 +139,12 @@ main
 
 h1 {
     font-size: 1.6rem;
+    width: 15rem;
     color: #4004b1;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: center;
+    border-bottom: 1px solid ;
+    border-radius: 3px;
 }
 
 .container-nav
@@ -211,7 +214,7 @@ h1 {
 }
 
 
-.container-nav button
+.btn-aplicar button
 {
     align-self: self-end;
     padding: 10px;
@@ -221,7 +224,16 @@ h1 {
     transition: .1s ease-in-out;
 }
 
-.container-nav button:hover 
+.btn-aplicar button:hover 
 {
     background-color: #3e02af;
+}
+
+.list-books
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }

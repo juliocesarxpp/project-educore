@@ -122,3 +122,156 @@ li a:hover
 .btn-in-out .login:hover {
     color: #4e4e4e;
 }
+
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+footer a, strong
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(36, 23, 95);
+    transition: .3s ease-in-out;
+}
+
+footer a:hover 
+{
+    text-decoration: underline;
+    color: rgb(26, 16, 66);
+}
+
+
+
+
+
+
+main 
+{
+    width: 70vw;
+    background-color: rgb(231, 231, 243);
+    margin: 0 auto;
+    padding: 20px 10px 20px 20px;   
+}
+
+.container-book
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h1
+{
+    font-size: 1.6rem;
+    width: 15rem;
+    color: #4004b1;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid ;
+    border-radius: 3px;
+}
+
+form {
+    width: 100%;
+}
+
+.form-register
+{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+}
+
+.section-one 
+{
+    margin-left: 20px;
+}
+
+.section-one, .section-two
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10 20px;
+}
+
+.form-register label 
+{
+    font-size: 1.1rem;
+    color: #4f05d8;
+    align-self: start;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.form-register input 
+{
+    width: 90%;
+    padding: 10px 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+}
+.form-register input:focus
+{
+    border: 2px solid #4f05d8;
+}
+
+.description-book
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin-bottom: 2rem;
+}
+
+.description-book label 
+{
+    font-size: 1.1rem;
+    color: #4f05d8;
+    align-self: start;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+.description-book textarea
+{
+    padding: 10px 10px;
+    margin-left: 25px;
+    border-radius: 10px;
+    width: 70%;
+    height: 60px;
+}
+
+.container-btn
+{
+    width: 100%;
+    margin-left: 25px;
+    gap: 10px;
+    display: flex;
+}
+
+.container-btn button
+{
+    padding: 7px 9px;
+    background-color: #5600FA;
+    color: white;
+    border-radius: 10px;
+    transition: .1s ease-in-out;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.container-btn button:hover 
+{
+    background-color: #3e02af;
+}

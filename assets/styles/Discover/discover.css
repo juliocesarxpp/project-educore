@@ -301,6 +301,7 @@ h1 {
 
 .information strong {
     font-size: .8rem;
+    color: black;
 }
 
 .information i
@@ -308,4 +309,28 @@ h1 {
     margin-top: 20px;
     font-weight: 600;
     color: #1c1538;
+}
+
+footer {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+footer a, strong
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(36, 23, 95);
+    transition: .3s ease-in-out;
+}
+
+footer a:hover 
+{
+    text-decoration: underline;
+    color: rgb(26, 16, 66);
 }

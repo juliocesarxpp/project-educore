@@ -32,30 +32,39 @@
 
        </div>
     </header>
+
     <main>
         <div class="books">
             <h1 class="title">Livros Disponíveis</h1>
+
             <div class="container-nav">
+
             <div class="booksExplorer">
+                <div class="containerExplorer">
                 <label for="Explorer">Explore por Livros</label>
                 <input type="text" id="Explorer" name="Explore" placeholder="Ex: Pai rico, Pai pobre">
+                </div>
+                <div class="btn-aplicar"><button>Aplicar Livro</button></div>
             </div>
 
-            <div class="booksGenres">
-                <label for="Genres">Gêneros</label>
-                <select name="Explorer" id="Genres">
+            <div class="booksGenres"> 
+                <div class="containerGenres">
+                    <label for="Genres">Gêneros</label>
+                    <select name="Explorer" id="Genres">
                     <option value="Genero">Selecione um gênero</option>
                     <option value="Desenvolvimento Pessoal">Autoajuda</option>
                     <option value="Dinheiro">Finanças e Negócios</option>
                     <option value="Espiritualidade">Espiritualidade</option>
                     <option value="Biografia">Biografia</option>
-                </select>
+                    </select>
+                </div>
+                <div class="btn-aplicar"><button>Aplicar Gênero</button></div>
             </div>
 
-             <div class="btn-aplicar"><button>Aplicar Gênero</button></div>
         
             </div>
         </div>
+
 
         <ul class="list-books">
             <li class="item-default">

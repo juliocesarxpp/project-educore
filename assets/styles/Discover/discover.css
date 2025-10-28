@@ -243,9 +243,11 @@ h1 {
 {
     padding: 7px;
     background-color: #5600FA;
-    color: white;
+    color: whitesmoke;
     border-radius: 10px;
     transition: .1s ease-in-out;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
 }
 
 .btn-aplicar button:hover 
@@ -266,7 +268,7 @@ h1 {
 .item-default
 {
     width: 30%;
-    background-color: #e0dbdb;
+    background-color: #dbdbe0;
     border-radius: 10px;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.075);
 }

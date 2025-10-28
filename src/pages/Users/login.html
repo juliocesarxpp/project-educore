@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <link rel="stylesheet" href="../../../assets/styles/Users/login.css">
+    <link rel="shortcut icon" href="../../../assets/logo/favicon.ico" type="image/x-icon">
+    <title>Register - EduCore</title>
 </head>
 <body>
     <div class="container">
-        
+        <h1>Cadastrar Usuário</h1>
+        <form action="">
+            <div class="register-form">
+                <label for="name-full">Nome Completo</label>
+                <input type="text" name="Name" id="name-full" placeholder="Ex: Júlio César Araújo da Costa" required />
+
+                <label for="registraction">Matrícula</label>
+                <input type="text" name="Register" id="registraction" placeholder="Ex: 20251074010030" required />
+
+                <label for="course">Curso</label>
+                <input type="text" name="Course" id="course" placeholder="Ex: Informática" required />
+
+                <label for="email">E-mail</label>
+                <input type="email" name="Email" id="email" placeholder="Ex: devjuliocesarr@gmail.com" required />
+
+                <label for="phone-number">Telefone</label>
+                <input type="tel" name="Phone-Number" id="phone-number" placeholder="Ex: (84) 9901-8257" required />
+            </div>
+
+            <div class="container-btn">
+                <button>Salvar</button>
+                <button><a href="../Users/users.html">Voltar</a></button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
